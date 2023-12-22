@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col-1{ width: 8.33%;}
+.col-2{ width: 16.66%;}
+.col-3{ width: 25%;}
+.col-4{ width: 33.33%;}
+.col-5{ width: 41.66%;}
+.col-6{ width: 50%;}
+.col-7{ width: 58.33%;}
+.col-8{ width: 66.66%;}
+.col-9{ width: 75%;}
+.col-10{ width: 83.33%;}
+.col-11{ width: 91.66%}
+.col-12{ width: 100%;}
+
+[class*='col-']{
+    float: left;
+    /* border: 1px solid gray; */
+}
+
+.row::after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.container{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.h-40{height: 40px;}
+.h-50{height: 50px;}
+.h-80{height: 80px;}
+.h-150{height: 150px;}
+.h-200{height: 200px;}
+.h-250{height: 250px;}
+.h-300{height: 300px;}
+.h-600{height: 600px;}
+
+.header-top-bg{
+    background-color: #e2e2e2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header-top-left ul{
+    list-style-type: none;
+}
+.header-top-left ul li{
+    float: left;
+    color: #4973bb;
+    font-size: 13px;
+}
+.header-top-left ul li a{
+    text-decoration: none;
+}
+.header-top-left ul li a,i{
+    text-decoration: none;
+    color: #4973bb;
+    font-size: 13px;
+}
+.header-top-right a{
+    float: right;
+    text-decoration: none;
+    color: #4973bb;
+    font-size: 13px;
+}
+
+
+.header-bottom-bg{
+    padding: 10px 0 10px 0;
+    background-color: #efefef;
+}
+.nav-right-img img{
+    float: right;
+    height: 50px;
+}
+.navbar ul{
+    list-style-type: none;
+    margin-top: 30px;
+}
+.navbar ul li{
+    float: left;
+    margin-left: 20px;
+    color: #4973bb;
+}
+.navbar ul li a span{
+    color: #4973bb;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #454545;
+    padding: 10px;
+    transition: 0.5s;
+}
+.navbar ul li a:hover{
+    background-color: #ffffff;
+    color: #4973bb;
+}
+
+.body-color{
+    background-color: #f6f6f6;
+    padding: 10px 0 80px 0;
+}
+.banner{
+    background-image: url(https://bitm.org.bd/assets/frontend/images/banner/banner01.jpg);
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.banner-top ul{
+    list-style-type: none;
+    padding: 30px 170px;
+}
+.banner-top ul li{
+    float: left;
+    color: #ffffff;
+    font-size: 26px;
+    padding: 0px 10px;
+}
+.banner-bottom input{
+    width: 50%;
+    height: 50px;
+    font-size: 18px;
+    color: #818285;
+    border-radius: 30px;
+    margin-top: 20PX;
+    margin-left: 22%;
+    border: transparent;
+    padding: 15px;
+    position: relative;
+}
+.banner-bottom input:focus{
+    outline: none;
+}
+.banner-bottom button, i{
+    font-size: 20px;
+    position: absolute;
+    top: 225px;
+    right: 400px;
+}
+
+.course{
+    margin-top: 20px;
+}
+.course-child{
+    width: 94%;
+    border: 1px solid #818285;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+.course-child:hover{
+    background-color: #f6faeb;
+    border: 1px solid #a6ce3a;
+}
+.course-child img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.course-child a{
+    text-decoration: none;
+}
+.course-child h3{
+    color: #454545;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.course-child p{
+    color: #454545;
+    padding: 5px 10px;
+}
+.course-child i{
+    color: #454545;
+}
+.course-child hr{
+    border: 1px solid #818285;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.course-child:hover hr{
+    border-color: #a6ce3a;
+}
+.enroll{
+    margin-left: 40%;
+    color: #4973bb;
+}
+
+footer{
+    background-color: #efefef;
+}
+footer hr{
+    border: 1px solid #d7d7d7;
+}
+.footer-top img{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.footer-bottom{
+    padding: 20px;
+}
+.footer-bottom ul{
+    list-style-type: none;
+}
+.footer-bottom ul li{
+    float: left;
+    margin: 10px;
+}
+.footer-bottom ul li a{
+    text-decoration: none;
+    color: #818285;
+}
+.footer-bottom ul li i{
+    color: #818285;
+}
+.footer-bottom p{
+    float: right;
+    color: #818285;
+    font-size: 15px;
+}
